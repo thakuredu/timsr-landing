@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Core Aspects Section</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        // Background (Most used)
+                        "background-light": "#ffffff",
+
+                        // Typography & Borders (Neutral - #4d4d53)
+                        "neutral-dark": "#4d4d53",
+
+                        // Primary Accent (Gold - #fbb027)
+                        "primary": "#fbb027",
+
+                        // Secondary Accent (Orange - #f27021)
+                        "secondary": "#f27021",
+                    },
+                    fontFamily: {
+                        display: ["Outfit", "sans-serif"],
+                        body: ["Inter", "sans-serif"],
+                    },
+                },
+            },
+        };
+    </script>
+    <style type="text/tailwindcss">
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .display-font {
+            font-family: 'Outfit', sans-serif;
+        }
+        :root {
+            --primary: #fbb027;
+            --secondary: #f27021;
+            --neutral: #4d4d53;
+        }
+    </style>
+</head>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>TIMSR Core Aspects</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,container-queries"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        // Background (White as requested)
+                        "background-light": "#ffffff",
+                        // Neutral Charcoal from image
+                        "neutral-dark": "#4d4d53",
+                        // Primary Gold from image
+                        "primary": "#fbb027",
+                        // Secondary Orange from image
+                        "secondary": "#f27021",
+                    },
+                    fontFamily: {
+                        display: ["Outfit", "sans-serif"],
+                        body: ["Inter", "sans-serif"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "4px",
+                    },
+                },
+            },
+        };
+    </script>
+    <style type="text/tailwindcss">
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #4d4d53;
+        }
+        .display-font {
+            font-family: 'Outfit', sans-serif;
+        }
+    </style>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>TIMSR Core Aspects</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,container-queries"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        "background-light": "#ffffff",
+                        "neutral-dark": "#4d4d53",
+                        "primary": "#fbb027",
+                        "secondary": "#f27021",
+                    },
+                    fontFamily: {
+                        display: ["Outfit", "sans-serif"],
+                        body: ["Inter", "sans-serif"],
+                    },
+                },
+            },
+        };
+    </script>
+    <style type="text/tailwindcss">
+        @layer base {
+            body {
+                @apply font-sans antialiased text-neutral-dark;
+                font-family: 'Inter', sans-serif;
+            }
+        }
+        .display-font {
+            font-family: 'Outfit', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-white transition-colors duration-300">
+    <div class="relative w-full overflow-hidden font-body">
+
+        <div class="absolute inset-0 z-0">
+            <img src="sky-with-clouds.jpg.jpeg" class="w-full h-full object-cover" alt="Sky Background">
+        </div>
+
+        <nav class="relative z-20 bg-white py-4 px-6 md:px-12 flex justify-between items-center shadow-sm">
+            <div class="text-2xl font-bold text-neutral-dark tracking-tight">LOGO</div>
+            <div class="flex gap-4 items-center">
+                <a href="#" class="text-[#25D366] hover:opacity-80 transition-opacity">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.886-9.886 9.886m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.72.937 3.659 1.432 5.631 1.433h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                </a>
+                <a href="#" class="text-[#1A237E] hover:opacity-80 transition-opacity">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                    </svg>
+                </a>
+                <a href="#" class="text-primary hover:opacity-80 transition-opacity">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                    </svg>
+                </a>
+            </div>
+        </nav>
+
+        <section
+            class="relative z-10 max-w-[1440px] mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-8 items-center px-4 md:px-10 lg:px-16 py-12">
+
+            <div class="lg:col-span-8">
+                <div class=" shadow-2xl rounded-sm overflow-hidden ">
+                    <img src="Hero Image@4x.png" alt="University Excellence" class="w-full h-auto block">
+                </div>
+            </div>
+
+            <div class="lg:col-span-4 flex justify-center lg:justify-end">
+                <div class="w-full max-w-[400px] bg-white shadow-2xl p-6 md:p-8 border-t-4 border-secondary rounded-sm">
+                    <div class="text-center mb-6">
+                        <h2 class="text-xl font-black text-neutral-dark uppercase tracking-tight">
+                            ENQUIRE NOW <span class="text-secondary">FOR 2026-28</span>
+                        </h2>
+                        <p class="text-gray-400 text-[11px] font-bold uppercase tracking-widest mt-1">Apply for PGDM</p>
+                    </div>
+
+                    <form class="space-y-3.5">
+                        <input type="text" placeholder="Enter Name *"
+                            class="w-full p-2.5 bg-white border border-gray-200 rounded-sm text-sm outline-none focus:border-primary">
+                        <input type="email" placeholder="Enter Email Address *"
+                            class="w-full p-2.5 bg-white border border-gray-200 rounded-sm text-sm outline-none focus:border-primary">
+
+                        <div class="flex gap-2">
+                            <div
+                                class="w-14 bg-gray-50 border border-gray-200 flex items-center justify-center text-xs text-gray-400 rounded-sm">
+                                +91</div>
+                            <input type="tel" placeholder="Enter Mobile Number *"
+                                class="flex-1 p-2.5 bg-white border border-gray-200 rounded-sm text-sm outline-none focus:border-primary">
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-2">
+                            <select
+                                class="w-full p-2.5 bg-white border border-gray-200 rounded-sm text-sm text-gray-400 outline-none">
+                                <option>Select State *</option>
+                            </select>
+                            <select
+                                class="w-full p-2.5 bg-white border border-gray-200 rounded-sm text-sm text-gray-400 outline-none">
+                                <option>Select City *</option>
+                            </select>
+                        </div>
+
+                        <div class="flex gap-2 items-center">
+                            <div
+                                class="bg-blue-50 px-3 py-2 rounded-sm border border-blue-100 font-mono text-blue-600 text-sm italic line-through tracking-widest">
+                                f03f64
+                            </div>
+                            <input type="text" placeholder="Enter Captcha"
+                                class="flex-1 p-2.5 bg-white border border-gray-200 rounded-sm text-sm outline-none focus:border-primary">
+                        </div>
+
+                        <div class="flex items-start gap-2 pt-1">
+                            <input type="checkbox" id="isolated-consent" class="mt-1 accent-secondary">
+                            <label for="isolated-consent" class="text-[10px] leading-tight text-gray-400">
+                                I authorize TIMSR & its representatives to contact me regarding my submitted enquiry.
+                            </label>
+                        </div>
+
+                        <button type="submit"
+                            class="w-full bg-[#f2655e] hover:bg-[#e0544d] text-white font-extrabold py-3.5 rounded-sm shadow-md transition-all uppercase text-sm tracking-widest">
+                            Submit
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <section class="relative min-h-[80vh] flex items-center justify-center overflow-hidden pt-18 px-4">
+
+
+        <div class="container mx-auto max-w-5xl relative z-10 text-center">
+            <div
+                class="inline-flex items-center gap-2 px-4 py-1.5 mb-8 rounded-full bg-white border border-neutral-dark/20 shadow-sm">
+                <span class="material-symbols-outlined text-secondary text-sm">school</span>
+                <span class="text-xs font-semibold uppercase tracking-widest text-neutral-dark">Est. 2002</span>
+            </div>
+
+<div class="text-center mb-16 px-4">
+    <span class="block text-base md:text-lg font-bold text-neutral-dark/70 uppercase tracking-[0.3em] mb-3">
+        Welcome to
+    </span>
+
+    <h1 class="display-font text-3xl md:text-5xl font-extrabold tracking-widest text-neutral-dark uppercase leading-tight">
+        Thakur Institute of <br class="hidden md:block" />
+        Management Studies & Research <span class="text-primary">(TIMSR)</span>
+    </h1>
+
+    <div class="w-24 h-1 bg-secondary mx-auto mt-8"></div>
+</div>
+
+
+            <div class="space-y-6 max-w-3xl mx-auto mt-16">
+                <p class="text-lg md:text-xl leading-relaxed text-neutral-dark/80">
+                    Affiliated to the <strong class="text-neutral-dark font-bold">University of Mumbai</strong>, TIMSR
+                    is a premier management institute committed to shaping industry-ready professionals through academic
+                    excellence and leadership-focused education.
+                </p>
+                <p class="text-lg md:text-xl leading-relaxed text-neutral-dark/80">
+                    Located in Mumbai’s education hub, TIMSR offers a dynamic environment where classroom learning meets
+                    real-world business exposure.
+                </p>
+            </div>
+
+            <!-- <div class="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
+                <button class="px-8 py-4 bg-secondary hover:bg-[#d95f1a] text-white font-bold rounded-full transition-all duration-200 shadow-lg shadow-secondary/20 flex items-center gap-2 group">
+                    Learn More
+                    <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                </button>
+                <button class="px-8 py-4 border-2 border-neutral-dark/20 hover:border-primary text-neutral-dark font-bold rounded-full transition-all duration-200">
+                    Download Brochure
+                </button>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="border-y border-neutral-dark/10 bg-neutral-dark/[0.02] py-10">
+        <div class="container mx-auto px-4">
+            <div
+                class="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-80 grayscale hover:grayscale-0 transition-all duration-500 text-neutral-dark">
+                <div class="flex items-center gap-2 hover:text-secondary transition-colors">
+                    <span class="material-symbols-outlined text-3xl text-primary">verified</span>
+                    <span class="font-display font-bold text-sm">NAAC A+</span>
+                </div>
+                <div class="flex items-center gap-2 hover:text-secondary transition-colors">
+                    <span class="material-symbols-outlined text-3xl text-primary">corporate_fare</span>
+                    <span class="font-display font-bold text-sm">AICTE APPROVED</span>
+                </div>
+                <div class="flex items-center gap-2 hover:text-secondary transition-colors">
+                    <span class="material-symbols-outlined text-3xl text-primary">public</span>
+                    <span class="font-display font-bold text-sm">ISO 9001:2015</span>
+                </div>
+                <div class="flex items-center gap-2 hover:text-secondary transition-colors">
+                    <span class="material-symbols-outlined text-3xl text-primary">emoji_events</span>
+                    <span class="font-display font-bold text-sm">NBA ACCREDITED</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="my-10 md:my-20 bg-white">
+
+        <div class="text-center mb-16">
+            <h2 class="display-font text-4xl md:text-5xl font-extrabold tracking-[0.2em] text-neutral-dark uppercase">
+                Accreditation
+            </h2>
+            <div class="w-24 h-1 bg-secondary mx-auto mt-6"></div>
+        </div>
+
+
+        <div
+            class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 items-center justify-items-center px-4 md:px-0 max-w-6xl mx-auto">
+            <div class="flex justify-center w-full">
+                <img alt="AICTE logo" class="h-14 md:h-20 object-contain"
+                    src="Images/Accreditation Logos/1572w/Asset 1@1572x.webp" />
+            </div>
+
+            <div class="flex justify-center w-full">
+                <img alt="Government of Maharashtra logo" class="h-14 md:h-20 object-contain"
+                    src="Images/Accreditation Logos/1572w/Asset 2@1572x.webp" />
+            </div>
+
+            <div class="flex justify-center w-full">
+                <img alt="DTE Maharashtra logo" class="h-14 md:h-20 object-contain"
+                    src="Images/Accreditation Logos/1572w/dtelogo Image@1572x.webp" />
+            </div>
+
+            <div class="flex justify-center w-full">
+                <img alt="University of Mumbai logo" class="h-14 md:h-20 object-contain"
+                    src="Images/Accreditation Logos/1572w/logo-shape@1572x.webp" />
+            </div>
+        </div>
+    </section> -->
+    <!-- VISION & MISSION -->
+    <section class="pt-20 py-10">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="text-center mb-16">
+                <h2
+                    class="display-font text-4xl md:text-5xl font-extrabold tracking-[0.2em] text-neutral-dark uppercase">
+                    Vision & <span class="text-primary">Mission</span>
+                </h2>
+                <div class="w-24 h-1 bg-secondary mx-auto mt-6"></div>
+            </div>
+
+            <div
+                class="rounded-lg shadow-md p-6 lg:p-10 flex flex-col md:flex-row items-center justify-center text-center bg-white">
+
+
+                <!-- Vision Block -->
+                <div
+                    class="flex-1 px-4 py-6 md:py-0 md:pr-8 lg:pr-12 flex flex-col md:flex-row items-center md:items-start justify-center">
+                    <div class="flex-shrink-0 mb-4 md:mb-0 md:mr-6">
+                        <div
+                            class="w-28 h-28 rounded-full flex items-center justify-center shadow-lg overflow-hidden p-0 bg-gray-800">
+                            <img src="Images/Icons/Vision.svg" alt="Vision Icon" class="w-28 h-28 object-contain" />
+                        </div>
+                    </div>
+                    <div class="text-center md:text-left">
+                        <h3 class="text-2xl font-bold mb-2 text-gray-900">
+                            Vision
+                        </h3>
+                        <ul class="text-base mx-auto md:mx-0 text-gray-700 list-disc pl-5 text-justify">
+                            <li>
+                                To be a globally connected management institute with focus on academic excellence,
+                                transformative
+                                research and innovation for sustainable impact.
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- Divider -->
+                <div class="hidden md:block w-px self-stretch my-6 md:my-0 bg-gray-300"></div>
+
+                <!-- Mission Block -->
+                <div
+                    class="flex-1 px-4 py-6 md:py-0 md:pl-8 lg:pl-12 flex flex-col md:flex-row items-center md:items-center justify-center mt-8 md:mt-0">
+                    <div class="flex-shrink-0 mb-4 md:mb-0 md:mr-6">
+                        <div
+                            class="w-28 h-28 rounded-full flex items-center justify-center shadow-lg overflow-hidden p-0 bg-gray-800">
+                            <img src="Images/Icons/Mission.svg" alt="Mission Icon" class="w-28 h-28 object-contain" />
+                        </div>
+                    </div>
+                    <div class="text-center md:text-left">
+                        <h3 class="text-2xl font-bold mb-2 text-gray-900">
+                            Mission
+                        </h3>
+                        <ul class="text-base max-w-md mx-auto md:mx-0 text-gray-700 list-disc pl-5 text-justify">
+                            <li>
+                                1. To establish a global network with organizations to integrate validated quality
+                                standards, enhancing
+                                academic and operational excellence.
+                            </li>
+                            <li>
+                                2. To deliver outcome-driven management education through immersive pedagogy.
+                            </li>
+                            <li>
+                                3. To enable a research-driven ecosystem that advances knowledge, promotes innovation,
+                                and provides
+                                solutions for business and society.
+                            </li>
+                            <li>
+                                4. To develop value-driven leaders who create sustainable, entrepreneurial, and positive
+                                impact.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-20   py-10 px-4 md:pt-20  px-4 bg-white">
+        <div class="container mx-auto max-w-7xl">
+            <div class="text-center mb-16">
+                <h2
+                    class="display-font text-4xl md:text-5xl font-extrabold tracking-[0.2em] text-neutral-dark uppercase">
+                    Achievements & <span class="text-primary">Recognitions</span>
+                </h2>
+                <div class="w-24 h-1 bg-secondary mx-auto mt-6"></div>
+            </div>
+
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+                <!-- Card 1 -->
+                <div
+                    class="bg-white p-4 rounded-xl shadow-[0_8px_30px_rgba(0,0,0,0.04)] border border-gray-100 text-center transition-transform hover:translate-y-1 duration-300">
+                    <div class="bg-gray-100 rounded-lg p-6 mb-6 flex items-center justify-center aspect-[4/3]">
+                        <img src="Images/Icons/2-Mid -2025 copy 2.webp" alt="Miday institute awards"
+                            class="w-auto h-auto max-h-full max-w-full object-contain drop-shadow-sm" />
+                    </div>
+                    <div class="px-4 pb-6">
+                        <h3 class="text-lg md:text-xl font-bold text-gray-900 leading-tight mb-3">
+                            Ranked 3rd in Top Institutes
+                        </h3>
+                        <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+                            Offering PGDM Program at MID-DAY Education B-School Survey 2025.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                    class="bg-white p-4 rounded-xl shadow-[0_8px_30px_rgba(0,0,0,0.04)] border border-gray-100 text-center transition-transform hover:translate-y-1 duration-300">
+                    <div class="bg-gray-100 rounded-lg p-6 mb-6 flex items-center justify-center aspect-[4/3]">
+                        <img src="Images/Icons/sc.webp" alt="pgdm institute ranking"
+                            class="w-auto h-auto max-h-full max-w-full object-contain drop-shadow-sm" />
+                    </div>
+                    <div class="px-4 pb-6">
+                        <h3 class="text-lg md:text-xl font-bold text-gray-900 leading-tight mb-3">
+                            Ranked 4th in India
+                        </h3>
+                        <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+                            Among India's Top Emerging Institutes Times B-School Survey 2025
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div
+                    class="bg-white p-4 rounded-xl shadow-[0_8px_30px_rgba(0,0,0,0.04)] border border-gray-100 text-center transition-transform hover:translate-y-1 duration-300">
+                    <div class="bg-gray-100 rounded-lg p-6 mb-6 flex items-center justify-center aspect-[4/3]">
+                        <img src="Images/Icons/middday.webp" alt="pgdm institute ranking"
+                            class="w-auto h-auto max-h-full max-w-full object-contain drop-shadow-sm" />
+                    </div>
+                    <div class="px-4 pb-6">
+                        <h3 class="text-lg md:text-xl font-bold text-gray-900 leading-tight mb-3">
+                            Excellence in Business Education
+                        </h3>
+                        <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+                            at MID-DAY Education Icons 2024.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div
+                    class="bg-white p-4 rounded-xl shadow-[0_8px_30px_rgba(0,0,0,0.04)] border border-gray-100 text-center transition-transform hover:translate-y-1 duration-300">
+                    <div class="bg-gray-100 rounded-lg p-6 mb-6 flex items-center justify-center aspect-[4/3]">
+                        <img src="Images/Icons/et-times.webp" alt="pgdm institute ranking"
+                            class="w-auto h-auto max-h-full max-w-full object-contain drop-shadow-sm" />
+                    </div>
+                    <div class="px-4 pb-6">
+                        <h3 class="text-lg md:text-xl font-bold text-gray-900 leading-tight mb-3">
+                            Ranked 2nd in Mumbai
+                        </h3>
+                        <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+                            Among India's Top Emerging Institutes Times B-School Survey 2024
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-20 px-4">
+        <div class="max-w-[1440px] mx-auto">
+
+            <div class="text-center mb-16">
+                <h2
+                    class="display-font text-4xl md:text-5xl font-extrabold tracking-[0.2em] text-neutral-dark uppercase">
+                    Core <span class="text-primary">Aspects</span>
+                </h2>
+                <div class="w-24 h-1 bg-secondary mx-auto mt-6"></div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0 border-y border-l border-neutral-dark/10">
+
+                <div
+                    class="bg-white border-r border-b lg:border-b-0 border-neutral-dark/10 p-10 flex flex-col items-start min-h-[420px] hover:bg-neutral-50 transition-colors group">
+                    <div class="text-primary mb-8">
+                        <span class="material-symbols-outlined text-5xl font-light">menu_book</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-neutral-dark mb-4">Education Services</h3>
+                    <p class="text-neutral-dark/80 leading-relaxed mb-8 flex-grow text-sm">
+                        Kingster University was established by John Smith in 1920 for the public benefit and it is
+                        recognized globally for excellence.
+                    </p>
+                    <a class="text-secondary font-bold text-[13px] uppercase tracking-wider flex items-center gap-2 group-hover:translate-x-1 transition-transform"
+                        href="#">
+                        Learn More
+                        <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                    </a>
+                </div>
+
+                <div
+                    class="bg-white border-r border-b lg:border-b-0 border-neutral-dark/10 p-10 flex flex-col items-start min-h-[420px] hover:bg-neutral-50 transition-colors group">
+                    <div class="text-primary mb-8">
+                        <span class="material-symbols-outlined text-5xl font-light">public</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-neutral-dark mb-4">International Hubs</h3>
+                    <p class="text-neutral-dark/80 leading-relaxed mb-8 flex-grow text-sm">
+                        Globally connected learning environments providing students with unparalleled cross-cultural
+                        experiences worldwide.
+                    </p>
+                    <a class="text-secondary font-bold text-[13px] uppercase tracking-wider flex items-center gap-2 group-hover:translate-x-1 transition-transform"
+                        href="#">
+                        Learn More
+                        <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                    </a>
+                </div>
+
+                <div
+                    class="bg-white border-r border-b sm:border-b-0 border-neutral-dark/10 p-10 flex flex-col items-start min-h-[420px] hover:bg-neutral-50 transition-colors group">
+                    <div class="text-primary mb-8">
+                        <span class="material-symbols-outlined text-5xl font-light">description</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-neutral-dark mb-4">Degree Programs</h3>
+                    <p class="text-neutral-dark/80 leading-relaxed mb-8 flex-grow text-sm">
+                        Comprehensive Bachelor's and Master's tracks designed to meet the demands of modern industry and
+                        research.
+                    </p>
+                    <a class="text-secondary font-bold text-[13px] uppercase tracking-wider flex items-center gap-2 group-hover:translate-x-1 transition-transform"
+                        href="#">
+                        Learn More
+                        <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                    </a>
+                </div>
+
+                <div
+                    class="bg-white border-r border-neutral-dark/10 p-10 flex flex-col items-start min-h-[420px] hover:bg-neutral-50 transition-colors group">
+                    <div class="text-primary mb-8">
+                        <span class="material-symbols-outlined text-5xl font-light">account_balance</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-neutral-dark mb-4">University Life</h3>
+                    <p class="text-neutral-dark/80 leading-relaxed mb-8 flex-grow text-sm">
+                        A vibrant community culture focused on personal growth, extracurricular excellence, and student
+                        wellbeing.
+                    </p>
+                    <a class="text-secondary font-bold text-[13px] uppercase tracking-wider flex items-center gap-2 group-hover:translate-x-1 transition-transform"
+                        href="#">
+                        Learn More
+                        <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- WHY TIMSR -->
+    <section class="max-w-7xl mx-auto pt-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="text-center mb-16">
+            <h2 class="display-font text-4xl md:text-5xl font-extrabold tracking-[0.2em] text-neutral-dark uppercase">
+                WHY <span class="text-primary">TIMSR ?</span>
+            </h2>
+            <div class="w-24 h-1 bg-secondary mx-auto mt-6"></div>
+        </div>
+
+        <div
+            class="grid grid-cols-1 lg:grid-cols-12 overflow-hidden shadow-sm border border-gray-100 bg-white rounded-sm">
+
+            <div class="lg:col-span-5 relative group cursor-pointer overflow-hidden h-[350px] lg:h-auto">
+                <img alt="Smiling student"
+                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80" />
+                <div class="absolute inset-0 flex items-center justify-center bg-black/5">
+                    <div
+                        class="bg-white/90 backdrop-blur-sm w-16 h-16 rounded-full flex items-center justify-center shadow-xl transition-transform duration-300 group-hover:scale-110">
+                        <svg viewBox="0 0 24 24" class="w-8 h-8 ml-1 fill-secondary" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 5v14l11-7z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-7 flex flex-col bg-white">
+                <div class="flex flex-wrap border-b border-gray-100 bg-gray-50/50 shrink-0">
+                    <button onclick="switchTab(event, 'benefits')"
+                        class="tab-btn active px-6 py-4 text-[12px] font-bold uppercase tracking-widest text-neutral-dark bg-white border-r border-gray-100 border-t-4 border-t-primary transition-all">
+                        Benefits
+                    </button>
+                    <button onclick="switchTab(event, 'development')"
+                        class="tab-btn px-6 py-4 text-[12px] font-bold uppercase tracking-widest text-gray-400 hover:text-neutral-dark border-r border-gray-100 transition-all">
+                        Development
+                    </button>
+                    <button onclick="switchTab(event, 'spirituality')"
+                        class="tab-btn px-6 py-4 text-[12px] font-bold uppercase tracking-widest text-gray-400 hover:text-neutral-dark border-r border-gray-100 transition-all">
+                        Spirituality
+                    </button>
+                    <button onclick="switchTab(event, 'alumni')"
+                        class="tab-btn px-6 py-4 text-[12px] font-bold uppercase tracking-widest text-gray-400 hover:text-neutral-dark transition-all">
+                        Alumni
+                    </button>
+                </div>
+
+                <div class="relative flex-grow min-h-[400px] lg:min-h-[450px] overflow-hidden">
+
+                    <div id="benefits"
+                        class="tab-content absolute inset-0 p-8 lg:p-12 flex flex-col justify-center transition-opacity duration-300 opacity-100 z-10">
+                        <div class="relative z-10">
+                            <div class="mb-6">
+                                <span
+                                    class="material-symbols-outlined text-primary text-5xl font-light">menu_book</span>
+                            </div>
+                            <h3 class="text-2xl lg:text-3xl font-bold text-neutral-dark mb-4 font-display">Why Choose
+                                TIMSR?</h3>
+                            <p class="text-gray-500 leading-relaxed text-base mb-8">
+                                Our curriculum bridges the gap between academic theory and industry practice, ensuring
+                                students are Day-1 ready for the corporate world through intensive case studies and live
+                                projects.
+                            </p>
+                            <a href="#"
+                                class="inline-flex items-center gap-2 text-secondary font-extrabold text-[12px] uppercase tracking-widest group">
+                                Learn More <span
+                                    class="material-symbols-outlined text-base transition-transform group-hover:translate-x-1">arrow_forward</span>
+                            </a>
+                        </div>
+                        <div
+                            class="absolute right-0 bottom-0 opacity-[0.03] pointer-events-none translate-x-1/4 translate-y-1/4">
+                            <svg viewBox="0 0 24 24" class="w-[300px] h-[300px] text-neutral-dark" fill="currentColor">
+                                <path
+                                    d="M5 13.18v2.81c0 .73.4 1.41 1.05 1.76l5 2.63c.59.32 1.29.32 1.88 0l5-2.63c.65-.34 1.05-1.03 1.05-1.76v-2.81l-6.07 3.19c-.58.3-1.27.3-1.85 0L5 13.18zM12 3L1 8.2l10.07 5.3c.58.3 1.27.3 1.85 0L23 8.2 12 3z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div id="development"
+                        class="tab-content absolute inset-0 p-8 lg:p-12 flex flex-col justify-center transition-opacity duration-300 opacity-0 pointer-events-none">
+                        <div class="relative z-10">
+                            <div class="mb-6">
+                                <span
+                                    class="material-symbols-outlined text-primary text-5xl font-light">psychology</span>
+                            </div>
+                            <h3 class="text-2xl lg:text-3xl font-bold text-neutral-dark mb-4 font-display">Personal
+                                Growth</h3>
+                            <p class="text-gray-500 leading-relaxed text-base mb-8">
+                                Beyond academics, we focus on leadership qualities, emotional intelligence, and
+                                communication skills through specialized workshops for a holistic transformation.
+                            </p>
+                            <a href="#"
+                                class="inline-flex items-center gap-2 text-secondary font-extrabold text-[12px] uppercase tracking-widest group">
+                                Learn More <span
+                                    class="material-symbols-outlined text-base transition-transform group-hover:translate-x-1">arrow_forward</span>
+                            </a>
+                        </div>
+                        <div
+                            class="absolute right-0 bottom-0 opacity-[0.03] pointer-events-none translate-x-1/4 translate-y-1/4">
+                            <svg viewBox="0 0 24 24" class="w-[300px] h-[300px] text-neutral-dark" fill="currentColor">
+                                <path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div id="spirituality"
+                        class="tab-content absolute inset-0 p-8 lg:p-12 flex flex-col justify-center transition-opacity duration-300 opacity-0 pointer-events-none">
+                        <div class="relative z-10">
+                            <div class="mb-6">
+                                <span
+                                    class="material-symbols-outlined text-primary text-5xl font-light">self_improvement</span>
+                            </div>
+                            <h3 class="text-2xl lg:text-3xl font-bold text-neutral-dark mb-4 font-display">Ethical
+                                Leadership</h3>
+                            <p class="text-gray-500 leading-relaxed text-base mb-8">
+                                We integrate value-based learning to develop socially responsible leaders. Our spiritual
+                                labs provide a space for reflection and lead with empathy.
+                            </p>
+                            <a href="#"
+                                class="inline-flex items-center gap-2 text-secondary font-extrabold text-[12px] uppercase tracking-widest group">
+                                Learn More <span
+                                    class="material-symbols-outlined text-base transition-transform group-hover:translate-x-1">arrow_forward</span>
+                            </a>
+                        </div>
+                        <div
+                            class="absolute right-0 bottom-0 opacity-[0.03] pointer-events-none translate-x-1/4 translate-y-1/4">
+                            <svg viewBox="0 0 24 24" class="w-[300px] h-[300px] text-neutral-dark" fill="currentColor">
+                                <path
+                                    d="M15.41 16.09c-.11-.08-.22-.16-.33-.23.47-1.16.89-2.39 1.25-3.69l.06-.21c.54-1.92.85-3.86.91-5.71.01-.22-.11-.42-.31-.5-.2-.09-.43-.05-.59.1-.53.49-1.39 1.4-2.36 2.66-.08.11-.17.22-.25.33-.42.54-.85 1.13-1.28 1.77-.3-.64-.62-1.25-.97-1.84-.03-.05-.06-.11-.09-.16-.85-1.42-1.87-2.73-2.91-3.69-.16-.15-.39-.18-.59-.1-.2.08-.32.28-.31.5.06 1.85.37 3.79.91 5.71l.06.21c.36 1.3.78 2.53 1.25 3.69-.11.07-.22.15-.33.23-1.82 1.34-3.32 3-4.32 4.9-.11.21-.07.47.09.64.1.1.24.16.38.16.09 0 .17-.02.26-.07.91-.46 1.9-.79 2.94-.99l.13-.02c.86-.15 1.75-.23 2.64-.23s1.78.08 2.64.23l.13.02c1.04.2 2.03.53 2.94.99.21.11.47.07.64-.09.17-.17.2-.43.09-.64-1.01-1.9-2.51-3.56-4.33-4.9z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div id="alumni"
+                        class="tab-content absolute inset-0 p-8 lg:p-12 flex flex-col justify-center transition-opacity duration-300 opacity-0 pointer-events-none">
+                        <div class="relative z-10">
+                            <div class="mb-6">
+                                <span class="material-symbols-outlined text-primary text-5xl font-light">groups</span>
+                            </div>
+                            <h3 class="text-2xl lg:text-3xl font-bold text-neutral-dark mb-4 font-display">Global
+                                Network</h3>
+                            <p class="text-gray-500 leading-relaxed text-base mb-8">
+                                Our Alumni Connect platform links you to a 90,000+ strong network of global leaders
+                                across major industries for mentorship and career growth.
+                            </p>
+                            <a href="#"
+                                class="inline-flex items-center gap-2 text-secondary font-extrabold text-[12px] uppercase tracking-widest group">
+                                Learn More <span
+                                    class="material-symbols-outlined text-base transition-transform group-hover:translate-x-1">arrow_forward</span>
+                            </a>
+                        </div>
+                        <div
+                            class="absolute right-0 bottom-0 opacity-[0.03] pointer-events-none translate-x-1/4 translate-y-1/4">
+                            <svg viewBox="0 0 24 24" class="w-[300px] h-[300px] text-neutral-dark" fill="currentColor">
+                                <path
+                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function switchTab(event, tabId) {
+            // 1. Reset all contents (Opacity 0 and disable interaction)
+            const contents = document.querySelectorAll('.tab-content');
+            contents.forEach(content => {
+                content.classList.replace('opacity-100', 'opacity-0');
+                content.classList.add('pointer-events-none');
+                content.style.zIndex = "0";
+            });
+
+            // 2. Reset all buttons
+            const buttons = document.querySelectorAll('.tab-btn');
+            buttons.forEach(btn => {
+                btn.classList.remove('active', 'bg-white', 'text-neutral-dark', 'border-t-4', 'border-t-primary');
+                btn.classList.add('text-gray-400', 'bg-transparent');
+            });
+
+            // 3. Activate selected content (Opacity 1 and enable interaction)
+            const activeContent = document.getElementById(tabId);
+            activeContent.classList.replace('opacity-0', 'opacity-100');
+            activeContent.classList.remove('pointer-events-none');
+            activeContent.style.zIndex = "10";
+
+            // 4. Style the active button
+            const activeBtn = event.currentTarget;
+            activeBtn.classList.add('active', 'bg-white', 'text-neutral-dark', 'border-t-4', 'border-t-primary');
+            activeBtn.classList.remove('text-gray-400', 'bg-transparent');
+        }
+    </script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <section class="pt-20 w-full bg-white">
+        <div class="text-center mb-16">
+            <h2 class="display-font text-4xl md:text-5xl font-extrabold tracking-[0.2em] text-neutral-dark uppercase">
+
+                Recruitments
+            </h2>
+            <div class="w-24 h-1 bg-secondary mx-auto mt-6"></div>
+        </div>
+
+        <div class="bg-neutral-dark pt-16 pb-20 relative group">
+            <div class="max-w-7xl mx-auto px-12 md:px-20 relative">
+
+                <div class="swiper recruiters-swiper overflow-hidden">
+                    <div class="swiper-wrapper flex items-center">
+
+                        <div class="swiper-slide flex justify-center">
+                            <div class="flex flex-col items-center text-white font-body group cursor-default">
+                                <span
+                                    class="text-[8px] uppercase tracking-[0.3em] font-medium text-gray-400">Europa</span>
+                                <span
+                                    class="text-xl font-bold tracking-widest uppercase -mt-1 group-hover:text-primary transition-colors">Express</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide flex justify-center">
+                            <div class="flex items-center text-white font-body group cursor-default">
+                                <span class="material-symbols-outlined text-2xl mr-2 text-primary">key</span>
+                                <span class="text-base font-bold tracking-wider uppercase">Key Vision</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide flex justify-center">
+                            <div class="flex items-center text-white font-serif group cursor-default">
+                                <span
+                                    class="text-2xl font-bold italic tracking-tight group-hover:text-primary transition-colors">Azis
+                                    Bank</span>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide flex justify-center">
+                            <div class="flex items-center text-white font-body group cursor-default">
+                                <span class="text-3xl font-light leading-none text-primary mr-2">C</span>
+                                <div class="flex flex-col leading-tight">
+                                    <span class="text-[9px] font-bold uppercase tracking-wider">Credit</span>
+                                    <span class="text-base font-light text-gray-400">Angelio</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide flex justify-center">
+                            <div class="text-white font-display text-xl font-light tracking-[0.2em] uppercase">Global
+                                <span class="text-secondary font-bold">Tech</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide flex justify-center">
+                            <div class="flex items-center text-white font-body"><span
+                                    class="material-symbols-outlined text-primary mr-2">account_balance</span><span
+                                    class="text-lg font-bold tracking-widest uppercase">Apex Corp</span></div>
+                        </div>
+                        <div class="swiper-slide flex justify-center">
+                            <div class="text-white border-2 border-primary px-3 py-1 text-sm font-black uppercase">
+                                NexGen</div>
+                        </div>
+                        <div class="swiper-slide flex justify-center">
+                            <div class="text-white font-body text-2xl font-thin">Z <span
+                                    class="text-primary mx-1">|</span> A <span class="text-primary mx-1">|</span> B
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="swiper-pagination !-bottom-10"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.recruiters-swiper', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            speed: 800,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            // Navigation configuration
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            // Pagination configuration
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                dynamicBullets: true, // Makes dots smaller as they move away from active
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    slidesPerGroup: 2,
+                },
+                1024: {
+                    slidesPerView: 4,
+                    slidesPerGroup: 4,
+                }
+            },
+        });
+    </script>
+
+    <style>
+        /* Styling for Pagination Dots */
+        :root {
+            --swiper-pagination-color: #fbb027;
+            /* Your Primary Gold */
+            --swiper-pagination-bullet-inactive-color: #ffffff;
+            --swiper-pagination-bullet-inactive-opacity: 0.3;
+            --swiper-pagination-bullet-size: 10px;
+            --swiper-pagination-bullet-horizontal-gap: 6px;
+        }
+
+        .swiper-pagination-bullet-active {
+            box-shadow: 0 0 10px rgba(251, 176, 39, 0.5);
+        }
+
+        /* Optional: Style for arrow backgrounds */
+        .swiper-button-prev,
+        .swiper-button-next {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 50%;
+            padding: 20px;
+        }
+    </style>
+
+    <!DOCTYPE html>
+    <html class="light" lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <title>Our Courses Catalog Grid</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Inter:wght@400;500;600&amp;family=Material+Icons&amp;display=swap"
+            rel="stylesheet" />
+        <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+        <script>
+            tailwind.config = {
+                darkMode: "class",
+                theme: {
+                    extend: {
+                        colors: {
+                            primary: "#1DA1D2",
+                            "background-light": "#f4f4f4",
+                            "background-dark": "#121212",
+                        },
+                        fontFamily: {
+                            display: ["Playfair Display", "serif"],
+                            sans: ["Inter", "sans-serif"],
+                        },
+                        borderRadius: {
+                            DEFAULT: "0px",
+                        },
+                    },
+                },
+            };
+        </script>
+        <style>
+            .course-card-overlay {
+                background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
+            }
+
+            .date-badge {
+                background-color: rgba(0, 0, 0, 0.5);
+                backdrop-filter: blur(4px);
+            }
+        </style>
+    </head>
+
+
+<div class="max-w-[1400px] mx-auto min-h-screen py-20 px-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full shadow-2xl overflow-hidden">
+        
+   <div class="bg-primary p-12 flex flex-col justify-center min-h-[400px] text-white relative z-10 font-display">
+    <h1 class="text-6xl mb-6 font-bold">Our <br />Courses</h1>
+    <p class="text-sm opacity-90 mb-10 leading-relaxed max-w-[240px] font-light">
+        Cras site amet nibh libero, in gravida nulla dignissimos
+    </p>
+</div>
+        <div class="relative group overflow-hidden h-[400px]">
+            <img alt="Science Laboratory"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&q=80&w=800" />
+            
+            <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-neutral-900 via-neutral-900/90 to-transparent p-6 pt-12 transition-all duration-500">
+                <div class="flex justify-between items-center mb-0 group-hover:mb-3 transition-all duration-300 border-b border-white/10 pb-3">
+                    <h3 class="text-white text-xl font-display font-medium leading-tight">Chemical Eng.</h3>
+                    <span class="material-icons text-white text-xl group-hover:rotate-90 transition-transform duration-300">chevron_right</span>
+                </div>
+                <p class="text-white/70 text-xs leading-relaxed max-h-0 opacity-0 group-hover:max-h-20 group-hover:opacity-100 transition-all duration-500 ease-in-out overflow-hidden">
+                    Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit.
+                </p>
+            </div>
+        </div>
+
+        <div class="relative group overflow-hidden h-[400px]">
+            <img alt="Technology teamwork"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=800" />
+            
+            <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-neutral-900 via-neutral-900/90 to-transparent p-6 pt-12 transition-all duration-500">
+                <div class="flex justify-between items-center mb-0 group-hover:mb-3 transition-all duration-300 border-b border-white/10 pb-3">
+                    <h3 class="text-white text-xl font-display font-medium leading-tight">Information System</h3>
+                    <span class="material-icons text-white text-xl group-hover:rotate-90 transition-transform duration-300">chevron_right</span>
+                </div>
+                <p class="text-white/70 text-xs leading-relaxed max-h-0 opacity-0 group-hover:max-h-20 group-hover:opacity-100 transition-all duration-500 ease-in-out overflow-hidden">
+                    Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit.
+                </p>
+            </div>
+        </div>
+
+        <div class="relative group overflow-hidden h-[400px]">
+            <img alt="Person relaxing at sunset"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=800" />
+            
+            <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-neutral-900 via-neutral-900/90 to-transparent p-6 pt-12 transition-all duration-500">
+                <div class="flex justify-between items-center mb-0 group-hover:mb-3 transition-all duration-300 border-b border-white/10 pb-3">
+                    <h3 class="text-white text-xl font-display font-medium leading-tight">Work-Life Balance</h3>
+                    <span class="material-icons text-white text-xl group-hover:rotate-90 transition-transform duration-300">chevron_right</span>
+                </div>
+                <p class="text-white/70 text-xs leading-relaxed max-h-0 opacity-0 group-hover:max-h-20 group-hover:opacity-100 transition-all duration-500 ease-in-out overflow-hidden">
+                    Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit.
+                </p>
+            </div>
+        </div>
+
+        <div class="relative group overflow-hidden h-[400px]">
+            <img alt="Gym and fitness"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80&w=800" />
+            
+            <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-neutral-900 via-neutral-900/90 to-transparent p-6 pt-12 transition-all duration-500">
+                <div class="flex justify-between items-center mb-0 group-hover:mb-3 transition-all duration-300 border-b border-white/10 pb-3">
+                    <h3 class="text-white text-xl font-display font-medium leading-tight">The Theory Of Sport</h3>
+                    <span class="material-icons text-white text-xl group-hover:rotate-90 transition-transform duration-300">chevron_right</span>
+                </div>
+                <p class="text-white/70 text-xs leading-relaxed max-h-0 opacity-0 group-hover:max-h-20 group-hover:opacity-100 transition-all duration-500 ease-in-out overflow-hidden">
+                    Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit.
+                </p>
+            </div>
+        </div>
+
+        <div class="relative group overflow-hidden h-[400px]">
+            <img alt="Medical professionals"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800" />
+            
+            <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-neutral-900 via-neutral-900/90 to-transparent p-6 pt-12 transition-all duration-500">
+                <div class="flex justify-between items-center mb-0 group-hover:mb-3 transition-all duration-300 border-b border-white/10 pb-3">
+                    <h3 class="text-white text-xl font-display font-medium leading-tight">Bachelor Of Nursing</h3>
+                    <span class="material-icons text-white text-xl group-hover:rotate-90 transition-transform duration-300">chevron_right</span>
+                </div>
+                <p class="text-white/70 text-xs leading-relaxed max-h-0 opacity-0 group-hover:max-h-20 group-hover:opacity-100 transition-all duration-500 ease-in-out overflow-hidden">
+                    Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit.
+                </p>
+            </div>
+        </div>
+
+        <div class="relative group overflow-hidden h-[400px]">
+            <img alt="Chess board strategy"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                src="https://images.unsplash.com/photo-1616279967983-ec41347c6542?auto=format&fit=crop&q=80&w=800" />
+            
+            <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-neutral-900 via-neutral-900/90 to-transparent p-6 pt-12 transition-all duration-500">
+                <div class="flex justify-between items-center mb-0 group-hover:mb-3 transition-all duration-300 border-b border-white/10 pb-3">
+                    <h3 class="text-white text-xl font-display font-medium leading-tight">Game Theory 101</h3>
+                    <span class="material-icons text-white text-xl group-hover:rotate-90 transition-transform duration-300">chevron_right</span>
+                </div>
+                <p class="text-white/70 text-xs leading-relaxed max-h-0 opacity-0 group-hover:max-h-20 group-hover:opacity-100 transition-all duration-500 ease-in-out overflow-hidden">
+                    Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit.
+                </p>
+            </div>
+        </div>
+
+        <div class="relative group overflow-hidden h-[400px]">
+            <img alt="Gaming setup"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?auto=format&fit=crop&q=80&w=800" />
+            
+            <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-neutral-900 via-neutral-900/90 to-transparent p-6 pt-12 transition-all duration-500">
+                <div class="flex justify-between items-center mb-0 group-hover:mb-3 transition-all duration-300 border-b border-white/10 pb-3">
+                    <h3 class="text-white text-xl font-display font-medium leading-tight">Master Of Gamification</h3>
+                    <span class="material-icons text-white text-xl group-hover:rotate-90 transition-transform duration-300">chevron_right</span>
+                </div>
+                <p class="text-white/70 text-xs leading-relaxed max-h-0 opacity-0 group-hover:max-h-20 group-hover:opacity-100 transition-all duration-500 ease-in-out overflow-hidden">
+                    Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+    
+<footer class="bg-neutral-dark text-white text-sm font-body" id="footer">
+    
+    <div class="w-full h-1.5 bg-gradient-to-r from-primary to-secondary"></div>
+
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 lg:py-16">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
+
+            <div class="space-y-6 lg:space-y-12">
+                <div class="flex items-center space-x-4">
+                    <img alt="TIMSR School Crest Logo" src="./Images/Icons/TGBS Patch (1).svg"
+                        class="w-80 sm:w-96 md:w-56 lg:w-auto lg:max-w-full h-auto object-contain flex-shrink-0" />
+                </div>
+
+
+                <div class="w-full overflow-hidden rounded-lg border-2 border-primary/50 shadow-lg">
+                    <iframe class="w-full h-[180px] sm:h-[200px] md:h-[240px] lg:h-[200px] transition-all duration-500"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.73866275233!2d72.87169077511209!3d19.20661354785944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b738b1201ce1%3A0x1e903bee598c8a36!2sThakur%20Institute%20of%20Management%20Studies%20%26%20Research!5e0!3m2!1sen!2sin!4v1769599082045!5m2!1sen!2sin" 
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" aria-hidden="false"
+                        title="Thakur Global Business School location">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="h-full flex flex-col justify-center">
+                <div class="pt-4 sm:pt-6 lg:pt-8 space-y-6 sm:space-y-8">
+
+                    <div class="flex items-start sm:items-center space-x-4 group">
+                        <span class="material-symbols-outlined text-primary text-2xl sm:text-3xl mt-0.5 group-hover:text-secondary transition-colors">phone</span>
+                        <a href="tel:9920214191"
+                            class="text-base sm:text-lg text-white/90 hover:text-primary transition-colors font-medium tracking-wide">
+                            +91 XXXXX XXXXX
+                        </a>
+                    </div>
+
+                    <div class="flex items-start sm:items-center space-x-4 group">
+                        <span class="material-symbols-outlined text-primary text-2xl sm:text-3xl mt-0.5 group-hover:text-secondary transition-colors">email</span>
+                        <a href="mailto:tgbs@thakureducation.org"
+                            class="text-base sm:text-lg text-white/90 hover:text-primary transition-colors font-medium tracking-wide">
+                            admissions@timsrmumbai.in
+                        </a>
+                    </div>
+
+                    <div class="flex items-start sm:items-center space-x-4 group">
+                        <span class="material-symbols-outlined text-primary text-2xl sm:text-3xl mt-0.5 group-hover:text-secondary transition-colors">location_on</span>
+                        <p class="text-base sm:text-lg text-white/90 hover:text-primary transition-colors cursor-pointer leading-relaxed">
+                            Thakur Institute of Management Studies & Research, C-Block, Thakur Educational Campus,
+                            Shyamnarayan Thakur Marg, Thakur Village, Kandivali (East), Mumbai 400 101.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="border-t border-white/10 mt-6">
+        <p class="text-center text-xs sm:text-sm text-white/60 py-6 font-light tracking-wider">
+            Copyright © 2026 Thakur Institute of Management Studies & Research <br class="sm:hidden" />
+            (An Institute under Zagdusingh Charitable Trust)
+        </p>
+    </div>
+
+</footer>
+
+    </html>
+</body>
+
+</html>
+
+</html>
+
+</html>
