@@ -150,7 +150,13 @@
         </div>
 
         <nav class="relative z-20 bg-white py-4 px-6 md:px-12 flex justify-between items-center shadow-sm">
-            <div class="text-2xl font-bold text-neutral-dark tracking-tight">LOGO</div>
+           <a href="/" class="block group">
+                <img 
+                    src="TIMSR Logo.webp" 
+                    alt="Thakur Institute of Management Studies & Research Logo" 
+                    class="h-14 md:h-16 w-auto object-contain transition-transform"
+                />
+            </a>
             <div class="flex gap-4 items-center">
                 <a href="#" class="text-[#25D366] hover:opacity-80 transition-opacity">
                     <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -182,60 +188,63 @@
                 </div>
             </div>
 
-        <div class="lg:col-span-4 flex justify-center lg:justify-end">
-    <div class="w-full max-w-[400px] bg-white shadow-2xl p-6 md:p-8 border-t-4 border-[#fbb027] rounded-sm">
-        <div class="text-center mb-6">
-            <h2 class="text-xl font-black text-[#4d4d53] uppercase tracking-tight">
-                ENQUIRE NOW <span class="text-[#f27021]">FOR 2026-28</span>
-            </h2>
-            <p class="text-[#798990] text-[11px] font-bold uppercase tracking-widest mt-1">Apply for PGDM</p>
-        </div>
+            <div class="lg:col-span-4 flex justify-center lg:justify-end">
+                <div class="w-full max-w-[400px] bg-white shadow-2xl p-6 md:p-8 border-t-4 border-secondary rounded-sm">
+                    <div class="text-center mb-6">
+                        <h2 class="text-xl font-black text-neutral-dark uppercase tracking-tight">
+                            ENQUIRE NOW <span class="text-secondary">FOR 2026-28</span>
+                        </h2>
+                        <p class="text-gray-400 text-[11px] font-bold uppercase tracking-widest mt-1">Apply for PGDM</p>
+                    </div>
 
-        <form class="space-y-3.5">
-            <input type="text" placeholder="Enter Name *"
-                class="w-full p-2.5 bg-white border border-gray-200 rounded-sm text-sm outline-none focus:border-[#f27021]">
-            
-            <input type="email" placeholder="Enter Email Address *"
-                class="w-full p-2.5 bg-white border border-gray-200 rounded-sm text-sm outline-none focus:border-[#f27021]">
+                    <form class="space-y-3.5">
+                        <input type="text" placeholder="Enter Name *"
+                            class="w-full p-2.5 bg-white border border-gray-200 rounded-sm text-sm outline-none focus:border-primary">
+                        <input type="email" placeholder="Enter Email Address *"
+                            class="w-full p-2.5 bg-white border border-gray-200 rounded-sm text-sm outline-none focus:border-primary">
 
-            <div class="flex gap-2">
-                <div class="w-14 bg-[#efede4] border border-gray-200 flex items-center justify-center text-xs text-[#4d4d53] rounded-sm">
-                    +91</div>
-                <input type="tel" placeholder="Enter Mobile Number *"
-                    class="flex-1 p-2.5 bg-white border border-gray-200 rounded-sm text-sm outline-none focus:border-[#f27021]">
-            </div>
+                        <div class="flex gap-2">
+                            <div
+                                class="w-14 bg-gray-50 border border-gray-200 flex items-center justify-center text-xs text-gray-400 rounded-sm">
+                                +91</div>
+                            <input type="tel" placeholder="Enter Mobile Number *"
+                                class="flex-1 p-2.5 bg-white border border-gray-200 rounded-sm text-sm outline-none focus:border-primary">
+                        </div>
 
-            <div class="grid grid-cols-2 gap-2">
-                <select class="w-full p-2.5 bg-white border border-gray-200 rounded-sm text-sm text-[#4d4d53] outline-none focus:border-[#f27021]">
-                    <option>Select State *</option>
-                </select>
-                <select class="w-full p-2.5 bg-white border border-gray-200 rounded-sm text-sm text-[#4d4d53] outline-none focus:border-[#f27021]">
-                    <option>Select City *</option>
-                </select>
-            </div>
+                        <div class="grid grid-cols-2 gap-2">
+                            <select
+                                class="w-full p-2.5 bg-white border border-gray-200 rounded-sm text-sm text-gray-400 outline-none">
+                                <option>Select State *</option>
+                            </select>
+                            <select
+                                class="w-full p-2.5 bg-white border border-gray-200 rounded-sm text-sm text-gray-400 outline-none">
+                                <option>Select City *</option>
+                            </select>
+                        </div>
 
-            <div class="flex gap-2 items-center">
-                <div class="bg-[#efede4] px-3 py-2 rounded-sm border border-gray-200 font-mono text-[#798990] text-sm italic line-through tracking-widest">
-                    f03f64
+                        <div class="flex gap-2 items-center">
+                            <div
+                                class="bg-blue-50 px-3 py-2 rounded-sm border border-blue-100 font-mono text-blue-600 text-sm italic line-through tracking-widest">
+                                f03f64
+                            </div>
+                            <input type="text" placeholder="Enter Captcha"
+                                class="flex-1 p-2.5 bg-white border border-gray-200 rounded-sm text-sm outline-none focus:border-primary">
+                        </div>
+
+                        <div class="flex items-start gap-2 pt-1">
+                            <input type="checkbox" id="isolated-consent" class="mt-1 accent-secondary">
+                            <label for="isolated-consent" class="text-[10px] leading-tight text-gray-400">
+                                I authorize TIMSR & its representatives to contact me regarding my submitted enquiry.
+                            </label>
+                        </div>
+
+                        <button type="submit"
+                            class="w-full bg-[#f2655e] hover:bg-[#e0544d] text-white font-extrabold py-3.5 rounded-sm shadow-md transition-all uppercase text-sm tracking-widest">
+                            Submit
+                        </button>
+                    </form>
                 </div>
-                <input type="text" placeholder="Enter Captcha"
-                    class="flex-1 p-2.5 bg-white border border-gray-200 rounded-sm text-sm outline-none focus:border-[#f27021]">
             </div>
-
-            <div class="flex items-start gap-2 pt-1">
-                <input type="checkbox" id="isolated-consent" class="mt-1 accent-[#f27021]">
-                <label for="isolated-consent" class="text-[10px] leading-tight text-[#4d4d53]">
-                    I authorize TIMSR & its representatives to contact me regarding my submitted enquiry.
-                </label>
-            </div>
-
-            <button type="submit"
-                class="w-full bg-[#f27021] hover:bg-[#4d4d53] text-white font-extrabold py-3.5 rounded-sm shadow-md transition-all uppercase text-sm tracking-widest">
-                Submit
-            </button>
-        </form>
-    </div>
-</div>
         </section>
     </div>
 
@@ -253,7 +262,7 @@
                 Thakur Institute of <br class="hidden md:block" />
                 Management Studies & Research 
             </h1>
-            <span class="inline-block mt-4 text-4xl md:text-6xl font-extrabold text-[#fbb027]">(TIMSR)</span>
+            <span class="inline-block mt-4 text-4xl md:text-6xl font-extrabold text-secondary">(TIMSR)</span>
         </div>
 
         <div class="max-w-4xl mx-auto border-t-2 border-[#fbb027]/30 pt-10 space-y-6">
